@@ -13,14 +13,14 @@ Also there are unit tests for CarFactory and ControllerValidation . All cases ca
 
 # Cars
 
-| Route | HTTP Verb	 | POST body	 | Description	 |
+| Route | HTTP Verb	 | POST body	 | Response	 |
 | --- | --- | --- | --- |
 | /car/sedan| `GET` | Empty | Sedan Car has produced |
 | /car/cabrio| `GET` | Empty | Cabrio Car has produced |
 | /car/hatchback| `GET` | Empty | Hatchback Car has produced |
 
-When car type is null or empty response will be "Car type is not valid".
+* When car type is null or empty response will be "Car type is not valid".
 
-When car type has white space or car type length less than 2 character response will be "Car type is not valid".
+* When car type has white space or car type length less than 2 character response will be "Car type is not valid".
 
-When car not found with given type , response will be "Car cannot be found with given type".
+* When car not found with given type , response will be "Car cannot be found with given type".
