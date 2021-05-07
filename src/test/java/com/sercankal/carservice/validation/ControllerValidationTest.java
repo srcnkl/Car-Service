@@ -1,4 +1,4 @@
-package com.sercankal.carservice.factory;
+package com.sercankal.carservice.validation;
 
 import com.sercankal.carservice.api.ControllerValidation;
 import com.sercankal.carservice.exception.CarServiceException;
